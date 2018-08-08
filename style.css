@@ -1,0 +1,120 @@
+* {
+    font-family: 'Merienda', cursive;
+    
+}
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    height: 100%;
+    padding-bottom: 80px;
+    padding-top: 20px;
+    margin: 0px 100px 100px 100px;
+
+}
+
+header{
+    border-bottom-color: #cccccc;
+}
+
+header.contaier-flow {
+    font-family: 'Merienda', cursive;
+    background-color: #ffffff;
+    position: fixed;
+    border: 0.1px #cccccc;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+a.navbar-brand{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 10px 0px 0px 10%;  
+}
+
+a.nav-link{
+    color: #777777;
+       
+}
+
+a.nav-link:hover{
+    color: #4aaaa5;
+    font-size: 1.2em;
+
+}
+
+.border-bottom{
+    border: 0.6px #cccccc;
+    border-style: solid;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+div.container-flow.content{
+    background-image:url("assets/images/symphony.png");
+    color: #777777;
+}
+
+div.container.content{
+    background-color: #ffffff;
+    border: #777777;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.card-img{
+    height: 250px;
+    width: 100px;
+    padding: 20px;
+}
+
+.card{
+    margin: 20px;
+}
+
+.footer-border{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: 5px #4aaaa5;
+    text-align: center;
+    background-color: #777777;
+    line-height: 5;
+    color: #ffffff;
+    border-style: solid;
+
+}
+
+img{
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    
+}
+
+.iconlabel{
+    
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 150px;
+    color: #ffffff;
+    margin: 0px 0px 10px 30%;
+    
+
+}
+
+@media screen and (max-width: 768px){
+    
+}
+
+@media screen and (max-width: 575px){    
+    div.container.content{
+        background-image:url("assets/images/symphony.png");
+        text-align: center;
+    }   
+}
