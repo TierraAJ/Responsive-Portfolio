@@ -7,16 +7,18 @@ html{
     min-height: 100%;
 }
 
+header{
+    border-bottom-color: #cccccc;
+    background-color: #ffffff;
+}
+
 body{
     height: 100%;
     padding-bottom: 80px;
     padding-top: 20px;
     margin: 0px 100px 100px 100px;
+    background-image:url("assets/images/symphony.png");
 
-}
-
-header{
-    border-bottom-color: #cccccc;
 }
 
 header.contaier-flow {
@@ -26,6 +28,7 @@ header.contaier-flow {
     border: 0.1px #cccccc;
     border-top-style: solid;
     border-bottom-style: solid;
+    height: 10%;
 }
 
 a.navbar-brand{
@@ -47,6 +50,8 @@ a.nav-link:hover{
     font-size: 1.2em;
 
 }
+
+
 
 .border-bottom{
     border: 0.6px #cccccc;
@@ -70,7 +75,7 @@ div.container.content{
 .card-img{
     height: 250px;
     width: 100px;
-    padding: 20px;
+    padding: 1px;
 }
 
 .card{
@@ -80,19 +85,19 @@ div.container.content{
 .footer-border{
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 100;
     width: 100%;
-    border: 5px #4aaaa5;
+    border: 5px#4aaaa5;
     text-align: center;
     background-color: #777777;
-    line-height: 5;
+    height: 10%;
     color: #ffffff;
     border-style: solid;
 
 }
 
 img{
-    padding: 10px;
+    padding: 5px;
     margin: 10px 0px 10px 0px;
     
 }
@@ -112,9 +117,12 @@ img{
     
 }
 
-@media screen and (max-width: 575px){    
+@media screen and (max-width: 700px){    
     div.container.content{
         background-image:url("assets/images/symphony.png");
         text-align: center;
+    }
+    div.card.bg-dark.text-white{
+        width: 70%;
     }   
 }
